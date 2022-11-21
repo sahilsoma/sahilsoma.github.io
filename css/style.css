@@ -1,0 +1,96 @@
+body{
+
+}
+
+button{
+  margin: 10px 5px;
+}
+
+/*sidebar Style Start*/
+.links ul{
+  list-style: none;
+}
+
+.links li{
+  padding: 5px 0;
+  font-weight: 900;
+}
+
+.links a{
+  color: #333;
+  text-decoration: none;
+}
+
+.links a:hover{
+  color: #0275d8;
+  text-decoration: underline;
+}
+
+#myimg{
+  max-width: 200px;
+  max-height: 200px
+}
+
+.tagline{
+
+}
+
+.resume{
+  padding: 5px;
+  color: grey;
+  font-size: 1em;
+  font-weight: 900;
+}
+
+/*Main Content Style Start*/
+.category{
+  font-size: 1em;
+  padding: 10px 0;
+  color: grey;
+
+}
+
+.category:not(:last-child) {
+            border-bottom: 1px solid grey;
+        }
+
+.category .category-title{
+  padding: 10px 0;
+  font-size: 2em;
+  font-weight: 900;
+  color: #333;
+
+}
+
+.category .category-body{
+  font-size: 1em;
+  font-weight: 400;
+  color: grey;
+}
+
+.signbox{
+  padding: 20px 20px 20px 0;
+}
+
+.sign{
+  font-family: 'Meddon', serif;
+  font-size: 2em;
+  font-weight: 100;
+  background: rgb(0,61,255);
+background: -moz-linear-gradient(84deg, rgba(0,61,255,1) 0%, rgba(0,1,255,1) 99%);
+background: -webkit-linear-gradient(84deg, rgba(0,61,255,1) 0%, rgba(0,1,255,1) 99%);
+background: linear-gradient(84deg, rgba(0,61,255,1) 0%, rgba(0,1,255,1) 99%);
+filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#003dff",endColorstr="#0001ff",GradientType=1);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+
+/*Footer*/
+Footer{
+  min-height: 30px;
+  text-align: center;
+  background-color: black;
+  color: white;
+  font-size: 1em;
+}
